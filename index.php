@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-
+<!-- Calling the config file -->
+<?php require('config.php'); ?>
+<!-- ----------------------- -->
 <html>
     <head>
         <title>homepage</title>
