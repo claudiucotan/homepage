@@ -9,10 +9,13 @@
         <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
-        <h1>Sites List</h1>
-        <p>Here you can see you sites list</p>
+        <div class="container">
+            <h1>Sites List</h1>
+            <p>Here you can see you sites list</p>
+        </container>
         <footer>
             <p><a href="https://github.com/claudiucotan/homepage">Fork me</a> on Github</p>
+        
         </footer>
     </body>
 
