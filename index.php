@@ -13,7 +13,7 @@
     <body>
         <div class="container">
             <h1>Sites List</h1>
-            <p>Here you can see you sites list</p>
+            <p>Here you can see your sites list</p>
             
             <ul>
             <?php 

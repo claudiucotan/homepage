@@ -12,12 +12,21 @@ a:link, a:visited {
     text-decoration: none;
 }
 
+footer {
+
+    margin-top: 2em;
+}
+
+footer p {
+
+    text-align: center;
+}
 
 .container {
 
     margin: 5em auto;
     padding: 0.5em 2em 0.5em 2em;
-    max-width: 80%;
+    width: 80%;
     background-color: #fdfdff;
     border-radius: 0.5em;
     box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
@@ -25,11 +34,29 @@ a:link, a:visited {
 
 }
 
-@media (max-width: 700px) {
-    div {
-        margin: 0 auto;
-        width: auto;
+@media (max-width: 740px) {
+    .container {
+        margin: 1em auto;
+        width: 100%;
+        padding: 0.5em;
     }
+
+    .container ul {
+
+        width: 100%;
+        margin: auto;
+        padding: 0;
+    
+    }
+
+    .container ul li {
+
+        width: 100%;
+        margin: 0 auto;
+        font-size: 0.1em;
+
+    }
+
 }
 
 .container h1 {
@@ -42,5 +69,29 @@ margin-bottom: 0;
 .container p {
 
 margin-top: 0;
+
+}
+
+.container ul {
+
+    width: 50%;
+    margin: auto;
+
+}
+.container ul li {
+
+    list-style-type: none;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    padding: 0.2em;
+    margin: 0.1em;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+
+.container ul li:hover {
+
+    background-color: #f0f0f2;
 
 }
