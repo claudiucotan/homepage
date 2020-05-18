@@ -1,6 +1,4 @@
 <?php
-$directory = "/Users/claudiucotan/Sites/*";
-
-
-
+$directory = "/Users/claudiucotan/Sites";
+$recursively = $directory . "/*";
 ?>

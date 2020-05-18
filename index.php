@@ -17,12 +17,22 @@
             
             <ul>
             <?php 
-               
-                foreach (glob ($directory, GLOB_ONLYDIR) as $file) {
+            
+               if (is_dir($directory)){
+
+                
+                foreach (glob ($recursively, GLOB_ONLYDIR) as $file) {
                     $dirname = basename($file);
                     printf( '<li>'.$dirname.'</li>' );
 
                 };
+
+               } else {
+
+                echo 'There are no sites ! <br> Or <br> You have to change the "directory" path in the config.php file.';
+
+               }
+                
                 
 
             ?>
