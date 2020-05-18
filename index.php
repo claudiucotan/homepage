@@ -17,22 +17,24 @@
             
             <ul>
             <?php 
-            
+               /* If the path of $directory (under config.php) exists and is a folder, we list all the sub-folders of that path. */           
                if (is_dir($directory)){
 
-                
                 foreach (glob ($recursively, GLOB_ONLYDIR) as $file) {
                     $dirname = basename($file);
                     printf( '<li>'.$dirname.'</li>' );
 
                 };
 
-               } else {
-
+               }
+               /* -------------------------------------------------------------------------------------------------- */
+               /* If the path of $directory (under config.php) do not exists, or is not a folder : */
+               else {
+                
                 echo 'There are no sites ! <br> Or <br> You have to change the "directory" path in the config.php file.';
 
                }
-                
+               /* ------------------------------------------------------------------------------- */
                 
 
             ?>
