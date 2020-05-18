@@ -14,6 +14,19 @@
         <div class="container">
             <h1>Sites List</h1>
             <p>Here you can see you sites list</p>
+            
+            <ul>
+            <?php 
+               
+                foreach (glob ($directory, GLOB_ONLYDIR) as $file) {
+                    $dirname = basename($file);
+                    printf( '<li>'.$dirname.'</li>' );
+
+                };
+                
+
+            ?>
+            </ul>
         </container>
         <footer>
             <p><a href="https://github.com/claudiucotan/homepage">Fork me</a> on Github</p>
