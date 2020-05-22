@@ -7,14 +7,16 @@ To use it, simply do:
 ```
 cd /LOCATION_WHERE_YOUR_APACHE_WEB_FILES_ARE_STRORED/ #example: cd /Users/claudiucotan/Sites/
 git clone https://github.com/claudiucotan/homepage.git
-
 ```
+
 Then start your favorite web browser and go to
 
 ```
 http://localhost
-
 ```
+
+![...](https://user-images.githubusercontent.com/3496906/82665477-2ae36700-9c34-11ea-9831-5458e0b9e624.png)
+
 
 
 
